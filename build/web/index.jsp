@@ -108,7 +108,7 @@ and open the template in the editor.
 
 
         <form> 
-            <input type="number" name = "toDelete" required/>
+            <input type="number" name = "toDelete" required?/>
             <input type="submit" value="Delete"/>
         </form>
 

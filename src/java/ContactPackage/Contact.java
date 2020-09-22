@@ -28,8 +28,10 @@ public class Contact {
              ArrayList<ContactPackage.Contact> contacts = new ArrayList<ContactPackage.Contact>();
             if(myObj.createNewFile()){
                 System.out.println("loading");
+                return new ArrayList<Contact>();
                 
             }else{
+                
                 System.out.println("loading");
                 while(myReader.hasNextLine()){
                     String data = myReader.nextLine();
@@ -51,7 +53,7 @@ public class Contact {
     }catch(IOException e){System.out.println("Error");}
         
         
-        return null;
+        return new ArrayList<Contact>();
         
     }
     
