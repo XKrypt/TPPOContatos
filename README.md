@@ -1,2 +1,2 @@
 # TPPOContatos
-Na Classe Contatos Mude o diretorio da variavel PATH
+Na Classe Contacts Mude o diretorio da variavel PATH
