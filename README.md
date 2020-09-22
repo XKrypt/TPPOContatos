@@ -1,2 +1,2 @@
 # TPPOContatos
-Na Classe Contacts Mude o diretorio da variavel PATH
+No pacote ContactPackage dentro da classe Contacts Mude o diretorio da variavel PATH para o que achar melhor
